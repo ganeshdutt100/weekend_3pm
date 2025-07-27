@@ -1,6 +1,34 @@
-p{
+*{
     background-color: black;
-    color: white;
-   
-
+    color: yellow;
 }
+         /* #heading{
+    color: red;
+        } */
+       
+        .para1{
+ background-color: purple;
+ color: #ffffff;
+        }
+        
+        .para2{
+ background-color: rgb(128, 0, 0);
+ color: #ffffff;
+        }
+       
+       input[type="text"]{
+    color: yellow;
+    background-color: black;
+       }
+h1,h2,h3,h4,h5,h6, .demo{
+    color: red;
+}
+
+
+
+div .para1{
+    color: yellow;
+}
+
+
+/* ctrl +/ */
