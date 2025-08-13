@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        color: white;
+        padding: 20px;
+        border-radius: 30px;
+        margin: 20px;
+      }
+      .logo {
+        font-size: 20px;
+      }
+      ul {
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+      }
+      ul li:hover {
+        color: yellow;
+        cursor: pointer;
+        /* cursor:cell;
+        cursor:col-resize;
+        cursor:help;
+        cursor:copy; */
+      }
+      .sec1 {
+        display: flex;
+        margin: 20px;
+        align-items: center;
+
+      }
+      .textSec1 {
+       line-height: 1.5;
+      }
+      .textSec1 p{
+        margin: 20px 0;
+        letter-spacing: 5px;
+        color: rgb(56, 55, 55);
+      }
+      button{
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+        padding: 10px 20px;
+        /* border: none; */
+        cursor: pointer;
+      }
+      button:hover{
+        background-color: white;
+        color: black;
+        
+      }
+      .sec1 img{
+        width: 300px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">LOGO</div>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+        <li>Projects</li>
+      </ul>
+    </nav>
+    <!-- .heroSection -->
+    <div class="sec1">
+      <div class="textSec1">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+          voluptas.
+        </p>
+        <button>Click me</button>
+      </div>
+      <img
+        src="https://ganeshdutt.netlify.app/newImgGanesh3Circle1.jpg"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
