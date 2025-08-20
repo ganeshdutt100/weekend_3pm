@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* laptop View */
+           nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        color: white;
+        padding: 20px;
+        border-radius: 30px;
+        margin: 20px;
+        
+        /* width: 88%; */
+
+      }
+      .logo {
+        font-size: 20px;
+      }
+      ul {
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+      }
+      ul li:hover {
+        color: yellow;
+        cursor: pointer;
+       
+      }
+      .bar{
+        display: none;
+      }
+
+      /* phone View */
+      @media only screen and (max-width:500px) {
+        ul{
+            display: none;
+        }
+        .bar{
+            display: block;
+        }
+      }
+
+    </style>
+</head>
+<body>
+   <nav>
+      <div class="logo">LOGO</div>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+        <li>Projects</li>
+      </ul>
+      <div class="bar">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </div>
+    </nav>
+</body>
+</html>
