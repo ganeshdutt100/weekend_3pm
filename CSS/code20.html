@@ -40,6 +40,21 @@
         display: none;
       }
 
+.heroSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.heroSection img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.text {
+}
+
+
+
       /* phone View */
       @media only screen and (max-width:500px) {
         ul{
@@ -48,6 +63,11 @@
         .bar{
             display: block;
         }
+        .heroSection {
+   
+    flex-direction: column-reverse;
+   
+}
       }
 
     </style>
@@ -66,5 +86,17 @@
         <i class="fa-solid fa-bars-staggered"></i>
       </div>
     </nav>
+
+
+    <!-- heroSection -->
+     <div class="heroSection">
+        <div class="text">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio odio a sint eum veritatis facilis officia sed autem, odit unde voluptatibus quasi enim est, deserunt sit beatae pariatur hic tempore!</p>
+            <button>Click me </button>
+        </div>
+
+        <img src="https://ganeshdutt.netlify.app/newImgGanesh3Circle1.jpg" alt="">
+     </div>
 </body>
 </html>
