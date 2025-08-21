@@ -40,6 +40,41 @@
     border-radius: 50%;
 }
 
+.card{
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0  10px 0 rgba(0, 0, 0, 0.2);
+
+}
+.card:hover{
+
+}
+.cards{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card img{
+    width: 100px;
+
+}
+.heading{
+    text-align: center;
+    margin-top: 100px;
+}
+.empty{
+    width: 250px;
+    background-color: black;
+    height: 2px;
+    margin: auto;
+    border-radius: 50%;
+
+}
+
      /* laptop */
      @media only screen and (min-width:500px) {
         .list{
@@ -55,6 +90,7 @@
      @media only screen and (min-width:700px) {
            .heroSection{
             flex-direction: row;
+            justify-content: space-around;
         }
      
      }
@@ -86,5 +122,28 @@
             <img src="https://ganeshdutt.netlify.app/GaneshNewImagePhoneView2.png" alt="">
         </div>
      </div>
-</body>
+     <!-- cards -->
+      <section>
+        <h1 class="heading">Lorem ipsum dolor sit amet.</h1>
+      <div class="empty"></div>
+     <div class="cards">
+        <div class="card">
+            <img src="https://ganeshdutt.netlify.app/developer2.png" alt="">
+            <h2>Lorem ipsum dolor</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, nihil?</p>
+        </div>
+        <div class="card">
+            <img src="https://ganeshdutt.netlify.app/developer2.png" alt="">
+            <h2>Lorem ipsum dolor</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, nihil?</p>
+        </div>
+        <div class="card">
+            <img src="https://ganeshdutt.netlify.app/developer2.png" alt="">
+            <h2>Lorem ipsum dolor</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, nihil?</p>
+        </div>
+     </div>
+
+      </section>
+      </body>
 </html>
