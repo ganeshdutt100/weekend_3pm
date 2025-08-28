@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinner</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            border: 5px solid black;
+            transition: .5s linear;
+            border-radius: 50%;
+            border-top-color:rgb(169, 169, 242) ;
+            animation:box 1s linear infinite  ;
+        }
+            @keyframes box {
+                from{
+                    transform: rotate(0);
+                }
+                to{
+                    transform: rotate(360deg);
+                }
+            }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
