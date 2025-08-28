@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spinner</title>
     <style>
-        .box{
+        /* .box{
             width: 100px;
             height: 100px;
             border: 5px solid black;
@@ -21,10 +21,42 @@
                 to{
                     transform: rotate(360deg);
                 }
+            } */
+
+            .heart img{
+                width: 300px;
+            }
+            .heart{
+                animation: heart 2s ease-in-out infinite;
+            }
+            @keyframes heart{
+                0%{
+                    transform: scale(1);
+                }
+                25%{
+                    transform: scale(1.5);
+
+                }
+                50%{
+                    transform: scale(.8);
+
+                }
+                75%{
+                    transform: scale(1.8);
+                    
+                }
+                100%{
+                    transform: scale(1);
+
+                }
             }
     </style>
 </head>
 <body>
-    <div class="box"></div>
+    <!-- <div class="box"></div> -->
+     <div class="heart">
+        <img src="https://img.freepik.com/free-psd/glowing-3d-heart_23-2151868748.jpg?t=st=1756374282~exp=1756377882~hmac=8e21937d6249f9f35e85db5dff6a2896462ebec283b21cb0d7220b4c8948608d&w=1480" alt="">
+        
+     </div>
 </body>
 </html>
